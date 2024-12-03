@@ -12,3 +12,11 @@ var realInp = new Input2().FirstFormattedInput(true);
 
 Console.WriteLine(Day02.secondPuzzle(testInp));
 Console.WriteLine(Day02.secondPuzzle(realInp));
+
+var input3 = new Input3();
+
+Console.WriteLine(Day03.firstPuzzle(input3.FirstFormattedInput(false)));
+Console.WriteLine(Day03.firstPuzzle(input3.FirstFormattedInput(true)));
+
+Console.WriteLine(Day03.secondPuzzle(input3.SecondFormattedInput(false)));
+Console.WriteLine(Day03.secondPuzzle(input3.SecondFormattedInput(true)));

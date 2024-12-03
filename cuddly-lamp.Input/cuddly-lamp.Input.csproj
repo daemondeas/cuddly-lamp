@@ -6,7 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-<ItemGroup>
+  <ItemGroup>
     <PackageReference Include="FSharp.Core" Version="8.0.100" />
+    <ProjectReference Include="..\cuddly-lamp.solutions.fsharp\cuddly-lamp.solutions.fsharp.fsproj" />
   </ItemGroup>
 </Project>
