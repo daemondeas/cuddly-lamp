@@ -20,3 +20,13 @@ Console.WriteLine(Day03.firstPuzzle(input3.FirstFormattedInput(true)));
 
 Console.WriteLine(Day03.secondPuzzle(input3.SecondFormattedInput(false)));
 Console.WriteLine(Day03.secondPuzzle(input3.SecondFormattedInput(true)));
+
+var input4 = new Input4();
+var test4 = input4.FirstFormattedInput(false);
+var real4 = input4.FirstFormattedInput(true);
+
+Console.WriteLine(Day04.firstPuzzle(test4.Item1, test4.Item2, test4.Item3));
+Console.WriteLine(Day04.firstPuzzle(real4.Item1, real4.Item2, real4.Item3));
+
+Console.WriteLine(Day04.secondPuzzle(test4.Item1, test4.Item2, test4.Item3));
+Console.WriteLine(Day04.secondPuzzle(real4.Item1, real4.Item2, real4.Item3));
