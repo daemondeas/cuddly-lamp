@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "cuddly-lamp.solutions.fshar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuddly-lamp.Input", "cuddly-lamp.Input\cuddly-lamp.Input.csproj", "{DF5E2BC1-483A-4316-997F-9C598C991F40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuddly-lamp.utils", "cuddly-lamp.utils\cuddly-lamp.utils.csproj", "{34731546-C64A-4B99-BE96-C5678A38A558}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{DF5E2BC1-483A-4316-997F-9C598C991F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF5E2BC1-483A-4316-997F-9C598C991F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF5E2BC1-483A-4316-997F-9C598C991F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34731546-C64A-4B99-BE96-C5678A38A558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34731546-C64A-4B99-BE96-C5678A38A558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34731546-C64A-4B99-BE96-C5678A38A558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34731546-C64A-4B99-BE96-C5678A38A558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
