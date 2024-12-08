@@ -40,6 +40,7 @@ Console.WriteLine(Day05.firstPuzzle(real5.Item1, real5.Item2));
 Console.WriteLine(Day05.secondPuzzle(test5.Item1, test5.Item2));
 Console.WriteLine(Day05.secondPuzzle(real5.Item1, real5.Item2));
 
+/*
 var input6 = new Input6();
 var test6 = input6.FirstFormattedInput(false);
 var real6 = input6.FirstFormattedInput(true);
@@ -48,3 +49,13 @@ Console.WriteLine(Day06.firstPuzzle(real6.Item1, real6.Item2, real6.Item3, real6
 
 Console.WriteLine(Day06.secondPuzzle(test6.Item1, test6.Item2, test6.Item3, test6.Item4.Item1, test6.Item4.Item2));
 Console.WriteLine(Day06.secondPuzzle(real6.Item1, real6.Item2, real6.Item3, real6.Item4.Item1, real6.Item4.Item2));
+*/
+
+var input7 = new Input7();
+var test7 = input7.FirstFormattedInput(false);
+var real7 = input7.FirstFormattedInput(true);
+Console.WriteLine(Day07.firstPuzzle(test7));
+Console.WriteLine(Day07.firstPuzzle(real7));
+
+Console.WriteLine(Day07.secondPuzzle(test7));
+Console.WriteLine(Day07.secondPuzzle(real7));
